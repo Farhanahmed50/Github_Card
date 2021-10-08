@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(./Fonts/Roboto-Regular.ttf);
+}
+
+body{
+    background-color: #eaedf7;
+}
+
+
+.mainContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, .4);
+    width: 320px;
+    border-radius: 8px;
+    padding: 30px;
+    
+}
+
+.dp{
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+.username{
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.follow{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.follow div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.follows{
+    color: #8f929b;
+    font-weight: 600;
+}
+
+.count{
+    color: #6d8fed;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: #6d8fed;
+    border:none;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.inpUser{
+    /* text-align: center; */
+    height: 35px;
+    width: 65%;
+    border: 1px solid #cccdce;
+    background-color: #eaedf7;
+    border-radius: 6px;
+    padding-left: 20px;
+    font-family: "Roboto";
+    font-size: 15px;
+    /* margin: 0 auto; */
+}
+
+.profileHeading{
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #757575;
+}
+
+.profileData{
+    padding-left: 20px;
+}
+
+.data{
+    font-weight: 600;
+}
+
+.subdata{
+    font-weight: 300;
+}
